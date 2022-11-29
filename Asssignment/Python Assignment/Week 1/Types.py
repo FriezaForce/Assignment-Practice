@@ -9,3 +9,4 @@ except ValueError:
         print("Input is a float")
     except ValueError:
         print("It's a string")
+        
