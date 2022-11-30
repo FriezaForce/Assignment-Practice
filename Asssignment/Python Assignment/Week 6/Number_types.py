@@ -1,8 +1,28 @@
-#Armstrong Number Check
+#prime Number
 
 import math 
 
 num = int(input("Enter a number to check its type: "))
+flag = False
+
+
+if num > 1:
+    
+    for i in range(2, num):
+        if (num % i) == 0:
+            
+            flag = True
+            
+            break
+
+
+if flag:
+    print(num, "is not a prime number")
+else:
+    print(num, "is a prime number")
+
+
+#Armstrong Number
 
 Sum = 0
 
@@ -67,5 +87,6 @@ if (Sum == num):
     print("Given  number is a Perfect number!")
 else:
     print("Given number is not a Perfect number!")
-
+    
+#===============================================================================
 
