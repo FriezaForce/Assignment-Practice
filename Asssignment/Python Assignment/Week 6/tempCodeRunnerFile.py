@@ -1,1 +1,0 @@
-    print("\n Factorial of %d = %d" %(Reminder, Factorial))
